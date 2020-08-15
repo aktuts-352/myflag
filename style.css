@@ -111,3 +111,9 @@ li:nth-child(12){
 	50% {color: white;}
 	100% {color: green;}
 }
+#person {
+	text-align: center;
+	color: orange;
+	margin-top: 5px;
+	margin-left: 300px;
+}
