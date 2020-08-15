@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	height: 450px;
+	width: 400px;
+	margin: auto;
+	border-left: 5px solid brown;
+	
+}
+.no1 {
+	height: 100px; 
+	width: 400px;
+	background-color: orange;
+
+}
+.no2 {
+	height: 96px; 
+	width: 96px;
+	/*background-color: blue;*/
+	border: 2px solid blue;
+	border-radius: 50%;
+	margin: 2px auto;
+	animation-name: rotate;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+    animation-timing-function: linear;
+    position: relative;
+
+}
+@keyframes rotate{
+	from {transform: rotate(0deg);}
+	to {transform: rotate(360deg);}
+} 
+.no2 li {
+	width: 94px;
+	border: 1px solid blue;
+	list-style: none;
+	position: relative;
+}
+li:nth-child(1){
+	top: 47px;
+}
+
+li:nth-child(2){
+	top: 45px;
+	transform: rotate(-102deg);
+
+}
+li:nth-child(3){
+	top: 43px;
+	transform: rotate(60deg);
+}
+li:nth-child(4){
+	top: 41px;
+	transform: rotate(45deg);
+}
+li:nth-child(5){
+	top: 39px;
+	transform: rotate(30deg);
+}
+li:nth-child(6){
+	top: 37px;
+	transform: rotate(15deg);
+}
+li:nth-child(7){
+	top: 35px;
+	transform: rotate(-90deg);
+}
+li:nth-child(8){
+	top: 33px;
+	transform: rotate(-60deg);
+}
+li:nth-child(9){
+	top: 31px;
+	transform: rotate(-45deg);
+}
+li:nth-child(10){
+	top: 29px;
+	transform: rotate(-30deg);
+}
+li:nth-child(11){
+	top: 27px;
+	transform: rotate(-15deg);
+}
+li:nth-child(12){
+	top: 25px;
+	transform: rotate(-75deg);
+}
+
+.no3 {
+	height: 100px; 
+	width: 400px;
+	background-color: green;
+}
+
+#wishes {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 40px;
+	color: orange;
+	animation-name: example;
+	animation-duration: 10s;
+	animation-fill-mode: both;
+	 animation-iteration-count: infinite;
+}
+@keyframes example {
+	0% {color: orange;}
+	50% {color: white;}
+	100% {color: green;}
+}
